@@ -1,41 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>historia de usuarios</title>
+    <title>Portafolio - Santiago</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>santiago</h1>
-        <nav>
-            <a href="mascotas.html">mascotas</a>
-        </nav>
-    </header>
 
-    <section id="sobre mi">
-        <h2>sobre mi</h2>
-        <p>hola soy santiago otalora y e4stoy haciena una paguina de mascotas</p>
-    </section>
+<header>
+    <h1>Santiago Otalora</h1>
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="mascotas.html">Mascotas</a>
+    </nav>
+</header>
 
-    <section id="proyectos">
-        <h2>proyectos</h2>
-        <ul>
-            <li><a href="https://github.com/Otalora010/terminal_soul.git">proyecto 1</a></li>
-            <li><a href="https://github.com/Otalora010/caculadora.git">proyecto 2</a></li>
-            </div>
-        </ul>
-    </section>
-    <section id="contacto">
-        <h2>contactos</h2>
-        <form>
-            <imput type="text" placeholder="tu nombre ">
-            <imput type="email" placeholder="tu correo ">
-            <button type="submit">enviar</button>
-            </imput>
-        </form>
-    </section>
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p id="texto">
+        Hola soy Santiago Otalora y estoy haciendo una página de mascotas.
+    </p>
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+        <li>
+            <a href="https://github.com/Otalora010/terminal_soul.git" target="_blank">
+                Proyecto 1
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/Otalora010/caculadora.git" target="_blank">
+                Proyecto 2
+            </a>
+        </li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu correo" required>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>

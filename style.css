@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00a8ff;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* SOBRE MI */
+#sobre-mi {
+    text-align: center;
+}
+
+#sobre-mi p {
+    font-size: 18px;
+}
+
+/* BOTÓN */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0097e6;
+}
+
+/* PROYECTOS */
+#proyectos ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#proyectos li {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#proyectos a {
+    text-decoration: none;
+    color: #00a8ff;
+    font-weight: bold;
+}
+
+#proyectos a:hover {
+    text-decoration: underline;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00a8ff;
+}
+
+/* GALERÍA MASCOTAS */
+section article {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+
+/* móvil */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    #proyectos ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* tablet */
+@media (max-width: 900px) {
+    #proyectos ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00a8ff;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* SOBRE MI */
+#sobre-mi {
+    text-align: center;
+}
+
+#sobre-mi p {
+    font-size: 18px;
+}
+
+/* BOTÓN */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0097e6;
+}
+
+/* PROYECTOS */
+#proyectos ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#proyectos li {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#proyectos a {
+    text-decoration: none;
+    color: #00a8ff;
+    font-weight: bold;
+}
+
+#proyectos a:hover {
+    text-decoration: underline;
+}
+
+/* FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00a8ff;
+}
+
+/* GALERÍA MASCOTAS */
+section article {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+
+/* móvil */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    #proyectos ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* tablet */
+@media (max-width: 900px) {
+    #proyectos ul {
+        grid-template-columns: 1fr 1fr;
+    }
+}
